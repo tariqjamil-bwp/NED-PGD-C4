@@ -1,0 +1,88 @@
+2022-11-18 15:28:41,495:INFO:Initializing load_model()
+2022-11-18 15:28:41,495:INFO:load_model(model_name=my best pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:29:28,901:INFO:Initializing load_model()
+2022-11-18 15:29:28,901:INFO:load_model(model_name=my best pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:29:42,210:INFO:Initializing load_model()
+2022-11-18 15:29:42,211:INFO:load_model(model_name=my best pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:35:12,962:INFO:Initializing load_model()
+2022-11-18 15:35:12,962:INFO:load_model(model_name=my best pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:46:01,966:INFO:Initializing load_model()
+2022-11-18 15:46:01,967:INFO:load_model(model_name=my best pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:47:09,874:INFO:Initializing load_model()
+2022-11-18 15:47:09,874:INFO:load_model(model_name=my best pipeline.pkl, platform=None, authentication=None, verbose=True)
+2022-11-18 15:47:43,802:INFO:Initializing load_model()
+2022-11-18 15:47:43,803:INFO:load_model(model_name=my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:52:16,138:INFO:Initializing load_model()
+2022-11-18 15:52:16,139:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/ my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:53:42,453:INFO:Initializing load_model()
+2022-11-18 15:53:42,453:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/ my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:53:58,998:INFO:Initializing load_model()
+2022-11-18 15:53:58,998:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:54:08,549:INFO:Initializing load_model()
+2022-11-18 15:54:08,549:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:54:20,216:INFO:Initializing load_model()
+2022-11-18 15:54:20,216:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:55:02,221:INFO:Initializing load_model()
+2022-11-18 15:55:02,221:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:56:28,613:INFO:Initializing load_model()
+2022-11-18 15:56:28,614:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 15:56:30,347:INFO:Initializing load_model()
+2022-11-18 15:56:30,347:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 16:11:27,351:INFO:Initializing load_model()
+2022-11-18 16:11:27,351:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 16:11:44,410:INFO:Initializing load_model()
+2022-11-18 16:11:44,410:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 16:11:46,187:INFO:Initializing load_model()
+2022-11-18 16:11:46,187:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 16:12:11,106:INFO:Initializing predict_model()
+2022-11-18 16:12:11,107:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 GradientBoostingRegressor(random_state=1459)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-11-18 16:12:11,107:INFO:Checking exceptions
+2022-11-18 16:12:11,107:INFO:Preloading libraries
+2022-11-18 16:13:00,710:INFO:Initializing load_model()
+2022-11-18 16:13:00,710:INFO:load_model(model_name=/home/tjamil/ned/flask/Insurence_Reg_App/my_best_pipeline, platform=None, authentication=None, verbose=True)
+2022-11-18 16:13:03,834:INFO:Initializing predict_model()
+2022-11-18 16:13:03,835:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 GradientBoostingRegressor(random_state=1459)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-11-18 16:13:03,835:INFO:Checking exceptions
+2022-11-18 16:13:03,835:INFO:Preloading libraries
